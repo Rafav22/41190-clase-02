@@ -1,4 +1,6 @@
-sidebar{
-  background-color: aqua;
-  
+aside{
+  background-color: rgba(0, 0, 0, 0.647);
+  width:var(--sidebar-width);
+  height: calc(100vh - var(--toolbar-height));
+  position:fixed;
 }
